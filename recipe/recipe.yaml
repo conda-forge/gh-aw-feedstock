@@ -1,5 +1,5 @@
 context:
-  version: "1.2.0"
+  version: "1.2.1"
 
 package:
   name: gh-aw
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://github.com/github/gh-aw/archive/refs/tags/v${{ version }}.tar.gz
-    sha256: 48e677d46ac672e6b66353379d7411f2adb12fe6807739895b02a88fb5f8d466
+    sha256: b2b5782dd6b53c8af261dcf37e1b0dedb31b8d2de0db5ee59b43254bbfa9a6f3
     target_directory: src
   - url: https://raw.githubusercontent.com/inconshreveable/mousetrap/v1.1.0/LICENSE
     sha256: 4819582701f150b28a563a6cd8ed0bf5a754e3c67b90ad38d78ba4131bf77795
